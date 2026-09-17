@@ -1,0 +1,1 @@
+const r=require('express').Router(),c=require('../controllers/ticket.controller');r.get('/',c.list);r.get('/:id',c.get);r.post('/',c.create);r.patch('/:id',c.update);r.post('/:id/resolve',c.resolve);r.post('/:id/route',c.route);module.exports=r;

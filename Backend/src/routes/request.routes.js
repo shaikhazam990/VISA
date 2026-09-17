@@ -1,0 +1,1 @@
+const r=require('express').Router(),c=require('../controllers/request.controller');r.get('/',c.list);r.get('/:id',c.get);r.post('/',c.create);r.patch('/:id',c.update);r.delete('/:id',c.remove);r.post('/:id/process',c.process);module.exports=r;

@@ -1,0 +1,1 @@
+exports.create=(b)=>{const e=[];if(!b.requestText||String(b.requestText).trim().length<3)e.push('requestText must be at least 3 characters');if(b.employeeEmail&&!/^\S+@\S+\.\S+$/.test(b.employeeEmail))e.push('employeeEmail is invalid');return e;};

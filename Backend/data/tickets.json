@@ -1,0 +1,242 @@
+[
+  {
+    "ticketId": "TK-1042",
+    "employeeName": "R. Verma",
+    "employeeEmail": "",
+    "issueSummary": "VPN credential expired",
+    "category": "unknown",
+    "status": "Resolved",
+    "source": "assignment-ticket-queue",
+    "linkedRequestId": null,
+    "assignedTeam": null,
+    "matchedPolicies": [],
+    "resolution": "Resolved per existing queue record",
+    "resolutionType": null,
+    "history": [
+      {
+        "status": "Resolved",
+        "at": "2026-09-17T14:26:59.664Z",
+        "by": "seed"
+      }
+    ],
+    "createdAt": "2026-09-17T14:26:59.664Z",
+    "updatedAt": "2026-09-17T14:26:59.664Z",
+    "closedAt": "2026-09-17T14:26:59.664Z"
+  },
+  {
+    "ticketId": "TK-1043",
+    "employeeName": "S. Iyer",
+    "employeeEmail": "",
+    "issueSummary": "Laptop replacement (3.2 yrs old)",
+    "category": "unknown",
+    "status": "Approved",
+    "source": "assignment-ticket-queue",
+    "linkedRequestId": null,
+    "assignedTeam": null,
+    "matchedPolicies": [],
+    "resolution": null,
+    "resolutionType": null,
+    "history": [
+      {
+        "status": "Approved",
+        "at": "2026-09-17T14:26:59.664Z",
+        "by": "seed"
+      }
+    ],
+    "createdAt": "2026-09-17T14:26:59.664Z",
+    "updatedAt": "2026-09-17T14:26:59.664Z",
+    "closedAt": "2026-09-17T14:26:59.664Z"
+  },
+  {
+    "ticketId": "TK-1044",
+    "employeeName": "A. Khan",
+    "employeeEmail": "",
+    "issueSummary": "Non-catalog software request",
+    "category": "unknown",
+    "status": "Pending",
+    "source": "assignment-ticket-queue",
+    "linkedRequestId": null,
+    "assignedTeam": null,
+    "matchedPolicies": [],
+    "resolution": null,
+    "resolutionType": null,
+    "history": [
+      {
+        "status": "Pending",
+        "at": "2026-09-17T14:26:59.664Z",
+        "by": "seed"
+      }
+    ],
+    "createdAt": "2026-09-17T14:26:59.664Z",
+    "updatedAt": "2026-09-17T14:26:59.664Z",
+    "closedAt": null
+  },
+  {
+    "ticketId": "TK-1045",
+    "employeeName": "P. Joshi",
+    "employeeEmail": "",
+    "issueSummary": "Mailbox quota increase",
+    "category": "unknown",
+    "status": "Approved",
+    "source": "assignment-ticket-queue",
+    "linkedRequestId": null,
+    "assignedTeam": null,
+    "matchedPolicies": [],
+    "resolution": null,
+    "resolutionType": null,
+    "history": [
+      {
+        "status": "Approved",
+        "at": "2026-09-17T14:26:59.664Z",
+        "by": "seed"
+      }
+    ],
+    "createdAt": "2026-09-17T14:26:59.664Z",
+    "updatedAt": "2026-09-17T14:26:59.664Z",
+    "closedAt": "2026-09-17T14:26:59.664Z"
+  },
+  {
+    "ticketId": "TK-1046",
+    "employeeName": "M. Das",
+    "employeeEmail": "",
+    "issueSummary": "Printer paper jam, floor 2",
+    "category": "unknown",
+    "status": "Resolved",
+    "source": "assignment-ticket-queue",
+    "linkedRequestId": null,
+    "assignedTeam": null,
+    "matchedPolicies": [],
+    "resolution": "Resolved per existing queue record",
+    "resolutionType": null,
+    "history": [
+      {
+        "status": "Resolved",
+        "at": "2026-09-17T14:26:59.664Z",
+        "by": "seed"
+      }
+    ],
+    "createdAt": "2026-09-17T14:26:59.664Z",
+    "updatedAt": "2026-09-17T14:26:59.664Z",
+    "closedAt": "2026-09-17T14:26:59.664Z"
+  },
+  {
+    "ticketId": "TK-1047",
+    "employeeName": "K. Singh",
+    "employeeEmail": "",
+    "issueSummary": "Home office equipment request",
+    "category": "unknown",
+    "status": "Pending",
+    "source": "assignment-ticket-queue",
+    "linkedRequestId": null,
+    "assignedTeam": null,
+    "matchedPolicies": [],
+    "resolution": null,
+    "resolutionType": null,
+    "history": [
+      {
+        "status": "Pending",
+        "at": "2026-09-17T14:26:59.664Z",
+        "by": "seed"
+      }
+    ],
+    "createdAt": "2026-09-17T14:26:59.664Z",
+    "updatedAt": "2026-09-17T14:26:59.664Z",
+    "closedAt": null
+  },
+  {
+    "ticketId": "TK-1048",
+    "employeeName": "T. Rao",
+    "employeeEmail": "",
+    "issueSummary": "Phishing email reported",
+    "category": "unknown",
+    "status": "In Progress",
+    "source": "assignment-ticket-queue",
+    "linkedRequestId": null,
+    "assignedTeam": null,
+    "matchedPolicies": [],
+    "resolution": null,
+    "resolutionType": null,
+    "history": [
+      {
+        "status": "In Progress",
+        "at": "2026-09-17T14:26:59.664Z",
+        "by": "seed"
+      }
+    ],
+    "createdAt": "2026-09-17T14:26:59.664Z",
+    "updatedAt": "2026-09-17T14:26:59.664Z",
+    "closedAt": null
+  },
+  {
+    "ticketId": "TK-1049",
+    "employeeName": "V. Nambiar",
+    "employeeEmail": "",
+    "issueSummary": "Password reset",
+    "category": "unknown",
+    "status": "Resolved",
+    "source": "assignment-ticket-queue",
+    "linkedRequestId": null,
+    "assignedTeam": null,
+    "matchedPolicies": [],
+    "resolution": "Resolved per existing queue record",
+    "resolutionType": null,
+    "history": [
+      {
+        "status": "Resolved",
+        "at": "2026-09-17T14:26:59.664Z",
+        "by": "seed"
+      }
+    ],
+    "createdAt": "2026-09-17T14:26:59.664Z",
+    "updatedAt": "2026-09-17T14:26:59.664Z",
+    "closedAt": "2026-09-17T14:26:59.664Z"
+  },
+  {
+    "ticketId": "TK-1050",
+    "employeeName": "J. Fernandes",
+    "employeeEmail": "",
+    "issueSummary": "Admin access request",
+    "category": "unknown",
+    "status": "Rejected",
+    "source": "assignment-ticket-queue",
+    "linkedRequestId": null,
+    "assignedTeam": null,
+    "matchedPolicies": [],
+    "resolution": null,
+    "resolutionType": null,
+    "history": [
+      {
+        "status": "Rejected",
+        "at": "2026-09-17T14:26:59.664Z",
+        "by": "seed"
+      }
+    ],
+    "createdAt": "2026-09-17T14:26:59.664Z",
+    "updatedAt": "2026-09-17T14:26:59.664Z",
+    "closedAt": "2026-09-17T14:26:59.664Z"
+  },
+  {
+    "ticketId": "TK-1051",
+    "employeeName": "L. Menon",
+    "employeeEmail": "",
+    "issueSummary": "Guest Wi-Fi issued",
+    "category": "unknown",
+    "status": "Resolved",
+    "source": "assignment-ticket-queue",
+    "linkedRequestId": null,
+    "assignedTeam": null,
+    "matchedPolicies": [],
+    "resolution": "Resolved per existing queue record",
+    "resolutionType": null,
+    "history": [
+      {
+        "status": "Resolved",
+        "at": "2026-09-17T14:26:59.664Z",
+        "by": "seed"
+      }
+    ],
+    "createdAt": "2026-09-17T14:26:59.664Z",
+    "updatedAt": "2026-09-17T14:26:59.664Z",
+    "closedAt": "2026-09-17T14:26:59.664Z"
+  }
+]

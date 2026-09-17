@@ -1,0 +1,3 @@
+const agent=require('../services/agent.service'),reqs=require('../services/request.service'),policy=require('../services/policy.service');const {ok,fail}=require('../utils/apiResponse');
+exports.process=async(req,res)=>{const e=require('../validator/agent.validator').process(req.body);if(e.length)return fail(res,400,'VALIDATION_ERROR','Invalid agent request',e);let r=req.body.requestId?reqs.get(req.body.requestId):null;if(!r&&req.body.message)r=reqs.create({employeeName:'Demo Employee',employeeEmail:'demo@veridian-corp.example',requestText:req.body.message});if(!r)return fail(res,404,'NOT_FOUND','Request not found');ok(res,await agent.process(r));};
+exports.policies=(req,res)=>ok(res,policy.search(req.query.q||''));

@@ -1,0 +1,3 @@
+const {read,write}=require('../config/db');
+class BaseDAO{constructor(name){this.name=name;} all(){return read(this.name,[]);} save(items){write(this.name,items);return items;} findById(field,id){return this.all().find(x=>x[field]===id);} insert(doc){const a=this.all();a.push(doc);this.save(a);return doc;} update(field,id,patch){const a=this.all();const i=a.findIndex(x=>x[field]===id);if(i<0)return null;a[i]={...a[i],...patch,updatedAt:new Date().toISOString()};this.save(a);return a[i];} remove(field,id){const a=this.all(),b=a.filter(x=>x[field]!==id);this.save(b);return b.length!==a.length;}}
+module.exports=BaseDAO;

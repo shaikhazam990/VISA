@@ -1,0 +1,1 @@
+module.exports={requests:require('./request.dao'),tickets:require('./ticket.dao'),kb:require('./kb.dao'),audits:require('./audit.dao'),agentRuns:require('./agentRun.dao'),users:require('./user.dao')};

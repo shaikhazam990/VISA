@@ -1,0 +1,1 @@
+const auth=require('../services/auth.service');const {ok}=require('../utils/apiResponse');exports.login=(req,res)=>ok(res,{user:auth.login(),token:'demo-token'},'Demo login successful');exports.me=(req,res)=>ok(res,auth.demoUser);

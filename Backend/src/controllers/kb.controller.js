@@ -1,0 +1,1 @@
+const policy=require('../services/policy.service');const {ok,fail}=require('../utils/apiResponse');exports.list=(req,res)=>ok(res,policy.search(req.query.q||''));exports.get=(req,res)=>{const x=policy.get(req.params.id);x?ok(res,x):fail(res,404,'NOT_FOUND','Policy not found');};
